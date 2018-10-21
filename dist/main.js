@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("console.log('Entrypoint !');\nvar arr = [1, 2, 3];\n\nvar iAmJavascriptES6 = function iAmJavascriptES6() {\n  var _console;\n\n  return (_console = console).log.apply(_console, arr);\n};\n\nwindow.iAmJavascriptES6 = iAmJavascriptES6;\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("console.log('1');\nconsole.log('2');\nconsole.log('3');\nconsole.log('4');\nsetTimeout(function afterTwoSeconds() {\n  console.log('5');\n}, 2000);\nconsole.log('6');\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 

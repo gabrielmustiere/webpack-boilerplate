@@ -4,4 +4,4 @@
 `npm run dev`
 
 ## Run prod
-`npm run prod`
+`npm run build`
